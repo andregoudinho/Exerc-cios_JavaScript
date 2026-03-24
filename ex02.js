@@ -15,13 +15,8 @@ function somarNumeros () {
 }
 
 function contagemRegressiva () {
-    let i = 10;
-
-    while (i >= 0){
-        alert(i);
-        i--;
-    }
-   
-    alert("Lançamento realizado!");
-        
+    
+    for (let i = 10; i >= 0; i --);{
+        console.log ("")
+    }          
 }
