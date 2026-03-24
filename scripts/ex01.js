@@ -1,4 +1,4 @@
-function somarNumeros () {
+function ex01 () {
     let soma = 0;
     let continuar = true;
 
@@ -12,11 +12,4 @@ function somarNumeros () {
         continuar = confirm("Deseja adicionar mais números?");
     }
     alert ("A soma dos números é: " + soma)
-}
-
-function contagemRegressiva () {
-    
-    for (let i = 10; i >= 0; i --);{
-        console.log ("")
-    }          
 }
